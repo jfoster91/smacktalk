@@ -99,7 +99,7 @@ object AuthService {
             try {
                 UserDataService.name = response.getString("name")
                 UserDataService.email = response.getString("email")
-                UserDataService.avaterName = response.getString("avatarName")
+                UserDataService.avatarName = response.getString("avatarName")
                 UserDataService.avatarColor = response.getString("avatarColor")
                 UserDataService.id = response.getString("_id")
                 complete(true)
