@@ -46,7 +46,7 @@ object AuthService {
         }
 
         Volley.newRequestQueue(context).add(registerRequest)
-    }
+}
 
     fun loginUser(context: Context, email: String, password: String, complete: (Boolean) -> Unit){
 
