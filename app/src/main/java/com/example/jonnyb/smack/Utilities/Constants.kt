@@ -7,6 +7,6 @@ const  val URL_Register = "${BASE_URL}account/register"
 const val URL_Login = "${BASE_URL}account/login"
 const val URL_CREATE_USER = "${BASE_URL}user/add"
 const val URL_GET_USER = "${BASE_URL}user/byEmail/"
-
+const val URL_GET_CHANNELS = "${BASE_URL}channel/"
 // Broadcast Constants
 const val BROADCAST_USER_DATA_CHANGED = "BROADCAST_USER_DATA_CHANGED"
